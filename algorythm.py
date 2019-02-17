@@ -48,9 +48,9 @@ print()
 def count_characters(string):
     count_dict = {}
     for c in string:
-        if c in count_dict: #go through each character
-            count_dict[c] += 1 #if in count you add 1
+        if c in count_dict:  # go through each character
+            count_dict[c] += 1  # if in count you add 1
         else:
-            count_dict[c] = 1 #add to dictionary as key with value of 1
-    print(count_dict) #contains key value pair for each character. key is character and value is number of times it occurred
+            count_dict[c] = 1  # add to dictionary as key with value of 1
+    print(count_dict)  #  contains key value pair for each character. key is character and value is number of times it occurred
 count_characters("hello")
